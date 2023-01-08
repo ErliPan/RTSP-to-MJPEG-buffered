@@ -9,4 +9,6 @@ This script starts to convert the RTSP stream and save every frame to the RAM wh
 
 Each client separately requests the frames from the buffer.
 
+This script was created with a little help from chatgpt (RTSP to MJPEG part)
+
 <img width="718" alt="Screenshot 2023-01-08 alle 22 59 25" src="https://user-images.githubusercontent.com/45854343/211221154-8b21231e-b426-49c4-818e-4021867cc550.png">
