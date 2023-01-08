@@ -118,11 +118,8 @@ class RTSP_capture:
         if self.streaming == False:
             threading.Thread(target=self.updateFrameLoop).start()
 
-        return self.lastFrame.tobytes()
-    
-
-    def keepalive(self):
         self.lastRequest = time.time()
+        return self.lastFrame.tobytes()
 
 
 
